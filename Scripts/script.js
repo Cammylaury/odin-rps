@@ -13,3 +13,13 @@ function playRound(computerSelection, playerSelection) {
     return(computerSelection, playerSelection)
 
 }
+
+const playerSelection = "Rock";
+const computerSelection = getComputerChoice();
+console.log(playRound(playerSelection, computerSelection));
+
+function playGame() {
+    for (let i = 0; i < 5; i++) {
+        playRound();
+    }
+}
