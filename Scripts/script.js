@@ -1,5 +1,3 @@
-console.log("Hello World")
-
 function getComputerChoice() {
     // Randomly return the computer choice of rock, paper, or scissors
 
