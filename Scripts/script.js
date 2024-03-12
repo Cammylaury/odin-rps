@@ -1,6 +1,8 @@
 function getComputerChoice() {
     // Randomly return the computer choice of rock, paper, or scissors
+    let choices = ["rock", "paper", "scissors"]
 
+    return choices[Math.random() * 3]
 
 }
 
