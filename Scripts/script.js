@@ -1,8 +1,11 @@
+
+
 function getComputerChoice() {
     // Randomly return the computer choice of rock, paper, or scissors
     let choices = ["rock", "paper", "scissors"]
 
     return choices[Math.random() * 3]
+    console.log(choices)
 
 }
 
@@ -13,9 +16,7 @@ function playRound(computerSelection, playerSelection) {
     // Make input case-insensitive so RoCk, rock, and ROCK are all valid answers
 
     return(computerSelection, playerSelection)
-
 }
-
 const playerSelection = "Rock";
 const computerSelection = getComputerChoice();
 console.log(playRound(playerSelection, computerSelection));
